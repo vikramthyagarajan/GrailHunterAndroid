@@ -8,17 +8,27 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MapView"
-            android:label="@string/app_name" >
+            android:name=".GrailHunter"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_grail_hunter"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".GameOver"
+            android:label="@string/title_activity_game_over"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".NewGame"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_new_game" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".CityView"
-            android:label="@string/title_activity_city_view" >
         </activity>
     </application>
 

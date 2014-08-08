@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context="com.ptotem.grailhunter.GrailHunter"
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/fragmentFrame"
+        >
+        <fragment
+            android:name="com.ptotem.grailhunter.ui.MapViewFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mapViewFragment"
+            tools:layout="@layout/fragment_map_view"
+            />
+    </FrameLayout>
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/worldViewFragment"
+        android:name="com.ptotem.grailhunter.ui.WorldViewFragment"
+        android:layout_weight="2"
+        tools:layout="@layout/fragment_world_view" />
+</LinearLayout>

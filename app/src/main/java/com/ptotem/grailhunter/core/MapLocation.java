@@ -1,4 +1,4 @@
-package com.ptotem.grailhunter.com.ptotem.grailhunter.core;
+package com.ptotem.grailhunter.core;
 
 /**
  * Created by vikram on 05/08/14.

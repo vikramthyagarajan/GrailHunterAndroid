@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maps_map1"
+    android:id="@+id/mapBackground"
+    tools:context=".com.ptotem.grailhunter.core.MapViewFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Large Text"
+        android:textColor="#000000"
+        android:id="@+id/mapLocationName"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
